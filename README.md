@@ -4,28 +4,6 @@ ArtMad is a full-stack web application that connects artists, galleries, and art
 
 ## Features
 
-### User Roles
-
-- **Artists** - Create profiles, upload artworks with images, and showcase portfolios
-- **Galleries** - Curate collections, represent artists, and display locations on interactive maps
-
-### Core Functionality
-
-- **User Authentication** - Secure signup/login with Passport.js local strategy and bcrypt password hashing
-- **Artwork Catalog** - Browse and discover artworks organized by genre
-- **Advanced Search** - Search for artists, galleries, and artworks by name or genre
-- **Profile Management** - Users can manage their content, artworks, and descriptions
-- **Gallery/Artist Pages** - Detailed pages with portfolios and artwork collections
-- **Interactive Maps** - Google Maps integration to display gallery locations
-- **Image Upload** - Cloudinary integration for storing and serving artwork images
-
-### Art Genres Supported
-
-- Pintura (Painting)
-- Escultura (Sculpture)
-- Fotografía (Photography)
-- Instalación (Installation)
-
 ## Tech Stack
 
 ### Backend
@@ -41,6 +19,28 @@ ArtMad is a full-stack web application that connects artists, galleries, and art
 - **Handlebars (HBS)** templating engine
 - Vanilla JavaScript with API handlers
 - Custom CSS styling
+
+## Core Functionality
+
+- **User Authentication** - Secure signup/login with Passport.js local strategy and bcrypt password hashing
+- **Artwork Catalog** - Browse and discover artworks organized by genre
+- **Advanced Search** - Search for artists, galleries, and artworks by name or genre
+- **Profile Management** - Users can manage their content, artworks, and descriptions
+- **Gallery/Artist Pages** - Detailed pages with portfolios and artwork collections
+- **Interactive Maps** - Google Maps integration to display gallery locations
+- **Image Upload** - Cloudinary integration for storing and serving artwork images
+
+### User Roles
+
+- **Artists** - Create profiles, upload artworks with images, and showcase portfolios
+- **Galleries** - Curate collections, represent artists, and display locations on interactive maps
+
+### Art Genres Supported
+
+- Pintura (Painting)
+- Escultura (Sculpture)
+- Fotografía (Photography)
+- Instalación (Installation)
 
 ### Integrations
 
